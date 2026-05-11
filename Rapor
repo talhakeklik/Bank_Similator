@@ -1,0 +1,22 @@
+COMP1002 - Advanced Python: Final Project Report Project Name: Bank Account Simulator Team Members:
+• Barış Şaman (242010020014)
+• Halis Yiğit Karadeniz (242010020013)
+• Talha Keklik (242010020004)
+Introduction The objective of this project is to develop a Python-based Bank Account Simulator that allows users to manage banking operations through a command-line interface. The project aims to solve the problem of basic financial record-keeping by providing a practical tool for adding members, depositing and withdrawing funds, and querying balances. This application demonstrates the use of advanced Python concepts in a real-world scenario.
+Technologies Used
+• Programming Language: Python.
+• Data Structures: Dictionaries (used to store account information as key-value pairs).
+• Concepts: Object-Oriented Programming (OOP) and Exception Handling.
+• Platform: Command-line interface (CLI).
+Implementation Details The software is designed using a class-based structure for modularity.
+• Kullanici Class: This class serves as the core of the application, managing a dictionary called hesaplar to store customer data.
+• Registration Functions: The uye_ekle and uye_sil functions manage the registration and removal of users from the system.
+• Transaction Functions: The para_yatir and para_cek methods handle financial transactions, ensuring that balances are updated correctly.
+• Query Function: The bakiye_sorgula function allows users to view the current status of their accounts.
+• Main Menu: A loop-driven interface called ana_menu provides a user-friendly way to interact with the system.
+Challenges & Solutions
+• Challenge: Handling invalid user input, such as entering text where a number is expected, which could cause the program to crash.
+• Solution: We implemented try-except blocks to catch ValueError exceptions during data entry, ensuring the program provides a warning and continues running instead of terminating unexpectedly.
+Conclusion & Future Work This project successfully implements the fundamental requirements of a bank simulation tool. We gained valuable experience in team collaboration and Python programming.
+• Future Work: Potential improvements include adding a persistent database (like SQLite) to save data after the program closes and developing a graphical user interface (GUI) for better accessibility.
+ 
